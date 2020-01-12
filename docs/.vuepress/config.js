@@ -1,10 +1,10 @@
 module.exports = {
   title: "且偷浮生半日闲",
-  description: 'Is it just me, or is it getting crazier out there?',
+  // description: 'Is it just me, or is it getting crazier out there?',
   dest: '../dist',
-  base: '/blogTest/',
+  base: '/blog/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/icon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -46,11 +46,11 @@ module.exports = {
     // 作者
     author: '且偷浮生半日闲',
     // 作者头像
-    authorAvatar: '/icon.ico',
+    authorAvatar: '/portrait.jpg',
     // 备案号
     // record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    startYear: '2020'
     /**
      * 密钥 (if your blog is private)
      */
