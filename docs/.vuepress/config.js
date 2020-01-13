@@ -2,7 +2,7 @@ module.exports = {
   title: "且偷浮生半日闲",
   description: 'Is it just me, or is it getting crazier out there?',
   dest: '../dist',
-  base: '/blogTest/',
+  base: '/blog/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
