@@ -6,7 +6,7 @@ categories:
 - essay
 tags: 
 - spring
-- domian
+- domain
 ---
 
 SpringBoot采用约定大于配置的方式为用户提供大量的默认配置，当默认配置不满足需求时，我们通过配置```yml```或者编写配置类的方式来完善它。此篇blog简单介绍了如何通过代码的形式配置webMvcConfig完成跨域。
@@ -89,7 +89,7 @@ public class RegLoginController {
 
 此时发送请求，很显然，因为违反**同源策略**（Sameoriginpolicy）会报错“请求被封锁”
 
-![image-20200113173801840](..\..\img\image-20200113173801840.png)
+![image-20200113173801840](../img/image-20200113173801840.png)
 
 此时编写webConfig类后再次发送请求
 
@@ -111,4 +111,5 @@ public class webConfig implements WebMvcConfigurer {
 
 成功获取信息
 
-![image-20200113180754543](..\..\img\image-20200113180754543.png)
+![img](../img/image-20200113180754543.png)
+

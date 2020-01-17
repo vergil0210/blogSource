@@ -1,6 +1,6 @@
 module.exports = {
   title: "且偷浮生半日闲",
-  // description: 'Is it just me, or is it getting crazier out there?',
+  description: 'Is it just me, or is it getting crazier out there?',
   dest: '../dist',
   base: '/blog/',
   head: [
@@ -50,7 +50,7 @@ module.exports = {
     // 备案号
     // record: 'xxxx',
     // 项目开始时间
-    startYear: '2020'
+    startYear: '2020',
     /**
      * 密钥 (if your blog is private)
      */
@@ -65,10 +65,10 @@ module.exports = {
      * valine 设置 (if you need valine comment )
      */
 
-    // valineConfig: {
-    //   appId: '...',// your appId
-    //   appKey: '...', // your appKey
-    // }
+    valineConfig: {
+      appId: 'J5UyfTbrWPsemraxheiczN6R-gzGzoHsz',// your appId
+      appKey: 'B8vypz2tid7I8vgBe04wOwMz', // your appKey
+    }
   },
   markdown: {
     lineNumbers: true
