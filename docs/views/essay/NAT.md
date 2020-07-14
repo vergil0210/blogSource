@@ -1,15 +1,11 @@
 ---
 title: NAT
 date: 2020-06-10
-<<<<<<< HEAD
-=======
 sidebar: false
->>>>>>> 91e5af9f9e988b5b75d47ca02fdb8537b2d2fbbe
 categories:
 - essay
 tags:
-- NAT
-- Network
+- network
 ---
 
 ### 简介
