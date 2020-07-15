@@ -1,12 +1,12 @@
 ---
-title: PKI学习笔记
+title: 关于PKI的学习随笔
 date: 2020-06-21
 sidebar: true
 categories: 
 - essay
 tags: 
-- spring
-- Security
+- security
+- network
 ---
 
 ## 1 简介
